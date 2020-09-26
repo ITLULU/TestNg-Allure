@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.449" tests="22" errors="0" skipped="1" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\appach\java\java1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone\target"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone"/>
+    <property name="java.endorsed.dirs" value="D:\appach\java\java1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Administrator\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf523672465216968120.tmp"/>
+    <property name="allure.results.directory" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone\target/allure-results/20200926091659"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\appach\java\java1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/appach/java/java1.8/bin/../jre/bin/server;D:/appach/java/java1.8/bin/../jre/bin;D:/appach/java/java1.8/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\appach\java\java1.8\bin;D:\appach\java\java1.8\jre;D:\appach\java\java1.8\lib;C:\Program Files\Git;C:\Program Files\Git\cmd;D:\appach\maven\apache-maven-3.6.3\bin;D:\appach\Tomcat\apache-tomcat-7.0.79\bin;D:\appach\mysql\mysql-5.7.25-winx64\bin;D:\appach\apache-jmeter-5.0\bin;D:\appach\apache-ant-1.9.6\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\nodejs;C:\Users\Administrator\Android\android-sdk\platform-tools;C:\Users\Administrator\Android\android-sdk;C:\Users\Administrator\Android\android-sdk\tools;C:\Users\Administrator\Android\android-sdk\build-tools;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Program Files (x86)\Appium;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Windows\TEMP;;C:\Program Files\eclipse;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone\target\test-classes;C:\Users\Administrator\eclipse-workspace\testNg.versionone\target\classes;D:\appach\m2\repository\org\testng\testng\6.10\testng-6.10.jar;D:\appach\m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\appach\m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;D:\appach\m2\repository\velocity\velocity\1.4\velocity-1.4.jar;D:\appach\m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\appach\m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;D:\appach\m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\appach\m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\appach\m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;D:\appach\m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\appach\m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\appach\m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\appach\m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\appach\m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\appach\m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\appach\m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\appach\m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;D:\appach\m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;D:\appach\m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\appach\m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;D:\appach\m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;D:\appach\m2\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\appach\m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\appach\m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;D:\appach\m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;D:\appach\m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\appach\m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;D:\appach\m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;D:\appach\m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\appach\m2\repository\io\qameta\allure\allure-testng\2.13.5\allure-testng-2.13.5.jar;D:\appach\m2\repository\io\qameta\allure\allure-java-commons\2.13.5\allure-java-commons-2.13.5.jar;D:\appach\m2\repository\io\qameta\allure\allure-model\2.13.5\allure-model-2.13.5.jar;D:\appach\m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\appach\m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\appach\m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\appach\m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\appach\m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\appach\m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;D:\appach\m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20\surefire-testng-utils-2.20.jar;D:\appach\m2\repository\org\apache\maven\surefire\surefire-grouper\2.20\surefire-grouper-2.20.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/browse/{}"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:\Program Files\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\appach\java\java1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs D:\appach\maven\apache-maven-3.6.3\conf\settings.xml -s D:\appach\maven\apache-maven-3.6.3\conf\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="D:\appach\java\java1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\appach\java\java1.8\jre\lib\resources.jar;D:\appach\java\java1.8\jre\lib\rt.jar;D:\appach\java\java1.8\jre\lib\sunrsasign.jar;D:\appach\java\java1.8\jre\lib\jsse.jar;D:\appach\java\java1.8\jre\lib\jce.jar;D:\appach\java\java1.8\jre\lib\charsets.jar;D:\appach\java\java1.8\jre\lib\jfr.jar;D:\appach\java\java1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Administrator\eclipse-workspace\testNg.versionone\EMBEDDED"/>
+    <property name="localRepository" value="D:\appach\m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TestGroupAdd" classname="com.testNg.Test.TestGroup" time="0.091"/>
+  <testcase name="TestDataprovide" classname="com.testNg.Test.TestDataProvider" time="0.091"/>
+  <testcase name="TestDataprovide" classname="com.testNg.Test.TestDataProvider" time="0.002"/>
+  <testcase name="Testlogin" classname="com.testNg.Test.TestDepends" time="0.097">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at com.testNg.Test.TestDepends.Testlogin(TestDepends.java:12)
+</failure>
+  </testcase>
+  <testcase name="TestDataOut" classname="com.testNg.Test.TestException" time="0.097">
+    <failure message="&#10;Method TestException.TestDataOut(int, int)[pri:0, instance:com.testNg.Test.TestException@10bea4] should have thrown an exception of type class java.lang.ArithmeticException" type="org.testng.TestException">org.testng.TestException: 
+
+Method TestException.TestDataOut(int, int)[pri:0, instance:com.testNg.Test.TestException@10bea4] should have thrown an exception of type class java.lang.ArithmeticException
+</failure>
+  </testcase>
+  <testcase name="TestDataOut" classname="com.testNg.Test.TestException" time="0.002">
+    <failure message="&#10;Method TestException.TestDataOut(int, int)[pri:0, instance:com.testNg.Test.TestException@10bea4] should have thrown an exception of type class java.lang.ArithmeticException" type="org.testng.TestException">org.testng.TestException: 
+
+Method TestException.TestDataOut(int, int)[pri:0, instance:com.testNg.Test.TestException@10bea4] should have thrown an exception of type class java.lang.ArithmeticException
+</failure>
+  </testcase>
+  <testcase name="TestPayOrder" classname="com.testNg.Test.TestDepends" time="0">
+    <skipped message="Method TestDepends.TestPayOrder()[pri:0, instance:com.testNg.Test.TestDepends@140d1230] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="Test" classname="com.testNg.Test.TestFirst" time="0.001"/>
+  <testcase name="TestGroupCat" classname="com.testNg.Test.TestGroup" time="0.002"/>
+  <testcase name="TestGroupChinese" classname="com.testNg.Test.TestGroup" time="0.001"/>
+  <testcase name="TestParamter" classname="com.testNg.Test.TestDataProvider" time="0.001"/>
+  <testcase name="TestGroupDog" classname="com.testNg.Test.TestGroup" time="0.003"/>
+  <testcase name="TestpriorityAdd" classname="com.testNg.Test.TestPriority" time="0.004"/>
+  <testcase name="TestGroupEnglish" classname="com.testNg.Test.TestGroup" time="0.001"/>
+  <testcase name="TestpriorityCat" classname="com.testNg.Test.TestPriority" time="0.003"/>
+  <testcase name="TestGroupsub" classname="com.testNg.Test.TestGroup" time="0.002"/>
+  <testcase name="TestpriorityChinese" classname="com.testNg.Test.TestPriority" time="0.002"/>
+  <testcase name="TestpriorityEnglish" classname="com.testNg.Test.TestPriority" time="0.003"/>
+  <testcase name="TestprioritypDog" classname="com.testNg.Test.TestPriority" time="0.002"/>
+  <testcase name="Testprioritysub" classname="com.testNg.Test.TestPriority" time="0.003"/>
+  <testcase name="TestOutTimes" classname="com.testNg.Test.TestOutTime" time="1.903">
+    <failure message="Method com.testNg.Test.TestOutTime.TestOutTimes() didn&apos;t finish within the time-out 2000" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.testNg.Test.TestOutTime.TestOutTimes() didn't finish within the time-out 2000
+</failure>
+  </testcase>
+  <testcase name="TestOutTimesTwo" classname="com.testNg.Test.TestOutTime" time="1.004"/>
+</testsuite>
