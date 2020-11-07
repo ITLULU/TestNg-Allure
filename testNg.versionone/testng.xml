@@ -16,8 +16,8 @@
         <class name="com.testNg.Test.TestGroup"/>
         <class name="com.testNg.Test.TestPriority"></class>
         <class name="com.testNg.Test.TestDepends"></class>
-        <class name="com.testNg.Test.TestOutTime"></class> 
-        <class name="com.testNg.Test.TestException"></class>
+      <!--  <class name="com.testNg.Test.TestOutTime"></class> -->
+       <!--  <class name="com.testNg.Test.TestException"></class>--> 
     </classes>
   </test> <!-- Test -->
    <!--   这是reportNG的监听类

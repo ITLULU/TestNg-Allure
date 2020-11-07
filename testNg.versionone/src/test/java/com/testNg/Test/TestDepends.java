@@ -9,7 +9,7 @@ public class TestDepends {
 	@Test(description="登录测试" )
 	public void Testlogin() {
 		Reporter.log("测试登录失败");
-		Assert.fail();
+//		Assert.fail();
 	}
 	@Test(description="依赖登录" ,dependsOnMethods= {"Testlogin"})
 	public void TestPayOrder() {
